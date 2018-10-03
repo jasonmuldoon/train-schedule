@@ -1,3 +1,7 @@
+
+
+
+
 $(function(){
 
     // Initialize Firebase
@@ -77,4 +81,10 @@ $(function(){
     // Event Listener
     $submit.on('click', getValues);
 
+
+    
 })
+
+
+
+
