@@ -1,5 +1,5 @@
 body {
-background: -webkit-radial-gradient(yellow, rgb(73, 73, 73)) no-repeat;
+background: -webkit-radial-gradient(rgb(240, 231, 185), rgb(73, 73, 73)) no-repeat;
   color: blue;
 }
 
@@ -9,17 +9,30 @@ background: -webkit-radial-gradient(yellow, rgb(73, 73, 73)) no-repeat;
   clear: both;
 }
 
+.jumbotron {
+  background: #f3f3a7;
+}
+
+.card {
+  background: #f3f3a7;
+}
+
+.container {
+
+  padding: 7%;
+}
+
 #heading {
-  font-family: Times;
+  font-family: Lobster, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bolder;
+  
 }
 
 #subHeading {
   font-family: Times;
-  font-style: italic;
   font-weight: bold;
   font-size: 11px;
-}
+  }
 
 canvas {
   position: fixed;
@@ -35,11 +48,13 @@ canvas {
 .panel-title {
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
 }
 
 th {
   font-weight: bold;
   color: rgb(7, 41, 134);
+  background: rgb(142, 233, 240);
 }
 
 .noselect {
