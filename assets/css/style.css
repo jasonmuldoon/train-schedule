@@ -36,8 +36,40 @@ background: -webkit-radial-gradient(rgb(240, 231, 185), rgb(73, 73, 73)) no-repe
   background: #f3f3a7;
   border: 2px solid maroon;
   border-radius: 1em 1em;
+  animation: 3s;
+  animation-name: jackInTheBox;
+}
 
-   }
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.jackInTheBox {
+  -webkit-animation-name: jackInTheBox;
+  animation-name: jackInTheBox;
+}
 
 .container {
    padding: 7%;
@@ -76,7 +108,9 @@ canvas {
 th {
   font-weight: bold;
   color: rgb(7, 41, 134);
+  text-align: center; 
   background: rgb(142, 233, 240);
+  box-shadow: 1px 1px 1px 1px #888888;
   border-radius: 1em  1em;
 }
 
