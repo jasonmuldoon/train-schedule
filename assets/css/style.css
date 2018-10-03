@@ -1,6 +1,6 @@
 body {
 background: -webkit-radial-gradient(rgb(240, 231, 185), rgb(73, 73, 73)) no-repeat;
-  color: blue;
+  color: rgb(71, 71, 75);
 }
 
 .clearfix::after{
@@ -13,7 +13,7 @@ background: -webkit-radial-gradient(rgb(240, 231, 185), rgb(73, 73, 73)) no-repe
   background: #f3f3a7;
  animation: 2s;
  animation-name: slideInRight; 
- border: 2px solid blue;
+ border: 2px solid maroon;
  padding: 1em 2em;
  border-radius: 1em  1em;
  font-family: Playbill, Onyx;  
@@ -34,7 +34,7 @@ background: -webkit-radial-gradient(rgb(240, 231, 185), rgb(73, 73, 73)) no-repe
 
 .card {
   background: #f3f3a7;
-  border: 2px solid blue;
+  border: 2px solid maroon;
   border-radius: 1em 1em;
 
    }
