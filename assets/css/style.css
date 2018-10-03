@@ -17,6 +17,8 @@ background: -webkit-radial-gradient(rgb(240, 231, 185), rgb(73, 73, 73)) no-repe
  padding: 1em 2em;
  border-radius: 1em  1em;
  font-family: Playbill, Onyx;  
+ box-shadow: 6px 6px 6px #333333;
+ opacity: 0.8;
  }
 
 @keyframes slideInRight {
@@ -38,6 +40,8 @@ background: -webkit-radial-gradient(rgb(240, 231, 185), rgb(73, 73, 73)) no-repe
   border-radius: 1em 1em;
   animation: 3s;
   animation-name: jackInTheBox;
+  box-shadow: 6px 6px 6px #333333;
+  opacity: 0.9;
 }
 
 @keyframes jackInTheBox {
